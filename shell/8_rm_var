@@ -1,0 +1,5 @@
+#!/bin/bash
+b=20
+echo "b=$b"
+unset b 
+echo "b=$b"

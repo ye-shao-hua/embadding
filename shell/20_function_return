@@ -1,0 +1,8 @@
+#!/bin/bash
+add(){
+  echo "这是add函数"
+  read -p "输入两个数：" a b 
+  return `expr $a + $b`
+}
+add
+echo "结果为：$?"

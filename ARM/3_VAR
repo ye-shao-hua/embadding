@@ -1,0 +1,11 @@
+  AREA MYCODE,CODE,READONLY
+  ENTRY
+  GBLA a        ;定义全局变量a并赋值为0
+a SETA 12       ;a赋值为12
+  GBLA b        ;定义全局变量b并赋值为0
+b SETA 20       ;b赋值为20
+START
+  LDR R0,=a     ;从a的地址读出数据载入R0
+  LDR R1,=b     ;从b的地址读出数据载入R1
+  ADD R1,R1,R0  ;R1=R1+R0
+ END

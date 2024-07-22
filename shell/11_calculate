@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "请输入a,b:" a b 
+echo "a+b=`expr $a + $b`"
+echo "a-b=`expr $a - $b`"
+echo "a*b=`expr $a \* $b`"
+echo "a/b=`expr $a / $b`"

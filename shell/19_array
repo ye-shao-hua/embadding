@@ -1,0 +1,5 @@
+#!/bin/bash
+my_array=(4 3 2 1) #中间用空格分开
+echo "${my_array[3]},${my_array[2]},${my_array[1]},${my_array[0]}"
+echo "所有元素：${my_array[*]}"
+echo "数组长度：${#my_array[*]}"

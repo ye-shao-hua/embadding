@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "请输入：" a
+if [ $a -eq 2 ]
+  then
+  echo "a eq 2"
+  else
+    echo "a nq 2"
+fi

@@ -1,0 +1,7 @@
+#!/bin/bash
+i=1
+while(( $i<=5 )) #双括号表示数值比较，否则为字符串比较
+  do 
+    echo $i
+    i=`expr $i + 1`
+  done

@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "请输入名称：" a
+echo "您输入的是：$a"

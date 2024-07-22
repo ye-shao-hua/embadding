@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -e a.txt ] #-r w x 权限
+  then
+  echo "exist file a.txt"
+  else
+    touch a.txt
+    echo "creat file a.txt"
+fi

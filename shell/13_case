@@ -1,0 +1,13 @@
+#!/bin/bash
+read -p "请输入1-3:" a
+case $a in
+'1')
+  echo "咖啡"
+  ;;
+'2')
+  echo "豆浆"
+  ;;
+'3')
+  echo "牛奶"
+  ;;
+esac
